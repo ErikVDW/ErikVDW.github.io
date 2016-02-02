@@ -1,0 +1,3 @@
+[submodule "sketchpad"]
+	path = sketchpad
+	url = ../sketchpad

@@ -1,0 +1,65 @@
+body {
+  background-color:black;
+  border-collapse: collapse;
+  clear: both;
+  color: white;
+  float:left;
+  width:100%;
+}
+button {
+  display: inline;
+  clear: none;
+  font-size:1.2em;
+  height:100px;
+  width:150px;
+
+}
+h1 {
+  clear: right;
+}
+
+p {
+  display: inline;
+  clear: none;
+  margin: 5px;
+
+}
+section {
+  border: 2px solid red;
+  float: left;
+  height:500px;
+  padding:0;
+  width:500px;
+  margin-left: 5%;
+  margin-top: 3%;
+ 
+}
+div.block-container {
+  border: 2px solid white;
+  background-color: yellow;
+  height: 400px;
+  margin-top: 10%;
+  margin: auto;
+  width: 400px;
+}
+div.block {
+  background-color:black;
+  float:left;
+  height:40px;
+  margin:0;
+  padding:0;
+  position:relative;
+  width:40px;
+}
+table {
+  border: 2px solid white;
+  height: 400px;
+  margin:auto;
+  padding:0;
+  width: 408px;
+}
+
+
+table .block {
+
+}

@@ -1,89 +1,89 @@
 /*TODO: Change color of search box div, and on active, hover.  Find different icons to match grey of text*/
 body {
-  margin:0;
-  font-family: 'Open Sans', sans-serif;
   color: #000;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 ul {
-  list-style-type:none;
-  margin:0;
-  padding:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  display:inline;
-  line-height:50px;
-  margin-right:10px;
+  display: inline;
+  line-height: 50px;
+  margin-right: 10px;
 }
 
 a {
   color: #000;
-  text-decoration:none;
+  text-decoration: none;
 
 }
 a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 nav {
-  float:right;
-  position:relative;
+  float: right;
+  position: relative;
 }
 
 .circle {
-  border-color:white;
-  border-radius:100%;
-  border-style:solid;
-  border-width:10px;
+  border-color: white;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 10px;
 
 }
 section.search {
   height: 10px;
   margin: 0% auto 450px auto;
-  position:relative;
-  text-align:center;
-  top:150px;
-  width:50%;
+  position: relative;
+  text-align: center;
+  top: 150px;
+  width: 50%;
 }
 
 section img {
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
 }
 
 .search-bar {
   border: #BFBFBF solid 1px;
-  height:20px;
-  margin:auto;
-  width:300px;
+  height: 20px;
+  margin: auto;
+  width: 300px;
 }
 
 .mic {
-  float:right;
+  float: right;
 }
 
 input {
-  border:none;
+  border: none;
   -webkit-appearance:none;
   float:left;
-  height:20px;
-  margin:0 0 0 5px;
-  padding:0;
-  width:280px;
+  height: 20px;
+  margin: 0 0 0 5px;
+  padding: 0;
+  width: 280px;
 }
 
 input:focus, input:active {
-  border-width: 0;
   border: none;
   -webkit-appearance: none; 
+  border-width: 0;
   margin: 0;
   outline: none;
   padding-left: 4px;
 }
 
 section.buttons {
+  height: 40px;
   margin: 0% auto;
   position: relative;
-  height: 40px;
   width: 280px;
 }
 

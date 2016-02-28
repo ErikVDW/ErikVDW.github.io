@@ -37,11 +37,17 @@ nav {
 
 }
 section.search {
-  margin:auto;
+  height: 10px;
+  margin: 0% auto 450px auto;
   position:relative;
   text-align:center;
   top:150px;
   width:50%;
+}
+
+section img {
+  display:block;
+  margin:auto;
 }
 
 .search-bar {
@@ -74,10 +80,13 @@ input:focus, input:active {
   padding-left: 4px;
 }
 
-section img {
-  display:block;
-  margin:auto;
+section.buttons {
+  margin: 0% auto;
+  position: relative;
+  height: 40px;
+  width: 280px;
 }
+
 
 footer {
   background: #f2f2f2 ;

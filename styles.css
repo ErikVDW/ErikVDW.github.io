@@ -14,3 +14,7 @@ h3 a{
 p {
 	padding-left: 20px;
 }
+footer {
+	position: fixed;
+	bottom:0;
+}
